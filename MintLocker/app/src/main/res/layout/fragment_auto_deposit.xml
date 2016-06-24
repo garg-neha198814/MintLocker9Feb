@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@android:color/white"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_normal"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="01"
+
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="01"
+                android:textStyle="bold"
+                android:gravity="center_vertical|center"
+                android:text="@string/amount"
+                android:textAlignment="gravity"
+                android:textColor="@color/textColorBlackLight"
+                android:textSize="@dimen/text_size_extra_extra_large" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <EditText
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/margin_normal"
+                android:background="@drawable/login_et_background"
+                android:ems="10"
+                android:textSize="@dimen/text_size_extra_large"
+                android:text="$ "
+                android:digits="0123456789"
+                android:imeOptions="actionDone"
+                android:inputType="number"
+                android:padding="@dimen/padding_nornal"
+                android:paddingLeft="@dimen/padding_nornal"
+                android:singleLine="true"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/darker_gray" />
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_normal"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="01"
+
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="01"
+                android:textStyle="bold"
+                android:gravity="center_vertical|center"
+                android:text="@string/date"
+                android:textAlignment="gravity"
+                android:textColor="@color/textColorBlackLight"
+                android:textSize="@dimen/text_size_extra_extra_large" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <EditText
+              android:id="@id/auto_deposit_calender"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/margin_normal"
+                android:background="@drawable/login_et_background"
+                android:ems="10"
+                android:textSize="@dimen/text_size_extra_large"
+                android:text=""
+                android:focusableInTouchMode="false"
+                android:focusable="false"
+                android:editable="false"
+
+                android:digits="0123456789"
+                android:imeOptions="actionDone"
+                android:inputType="number"
+                android:padding="@dimen/padding_nornal"
+                android:paddingLeft="@dimen/padding_nornal"
+                android:singleLine="true"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/darker_gray" />
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <Button
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_small"
+        android:layout_margin="@dimen/margin_normal"
+        android:background="@drawable/rounded_corner_blue_button"
+        android:text="@string/save"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

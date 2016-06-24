@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".ui.activities.Step6_Portfolio">
+
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <View
+                android:id="@+id/circleLowRisk"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginLeft="25dp"
+                android:background="@drawable/circle_normal" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/circleMediumRisk"
+                android:layout_toRightOf="@+id/circleLowRisk"
+                android:background="@color/item_pressed" />
+
+            <View
+                android:id="@+id/circleMediumRisk"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/circle_normal" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/circleHighRisk"
+                android:layout_toRightOf="@+id/circleMediumRisk"
+                android:background="@color/item_pressed" />
+
+            <View
+                android:id="@+id/circleHighRisk"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="25dp"
+                android:background="@drawable/circle_normal" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16sp"
+            android:paddingRight="16dp"
+            android:paddingTop="16dp">
+
+            <RelativeLayout
+                android:id="@+id/lowRisk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="5dp"
+                    android:drawableTop="@drawable/lowrisk"
+                    android:gravity="center"
+                    android:text="@string/lowRisk" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/mediumRisk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/selector"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="5dp"
+                    android:drawableTop="@drawable/mediumrisk"
+                    android:text="@string/mediumRisk" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/highRisk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/selector"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="5dp"
+                    android:drawableTop="@drawable/highrisk"
+                    android:text="@string/highRisk" />
+            </RelativeLayout>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/questionnaire"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/button_selector"
+        android:text="@string/questionnnaire"
+        android:textColor="@color/textColorWhite" />
+
+
+</RelativeLayout>

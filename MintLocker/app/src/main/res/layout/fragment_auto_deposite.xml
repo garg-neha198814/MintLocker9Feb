@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="01"
+        android:orientation="vertical">
+
+        <!-- <FrameLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">-->
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center_horizontal"
+
+            android:gravity="center"
+            android:paddingLeft="@dimen/padding_extra_large"
+            android:paddingRight="@dimen/padding_extra_large"
+            android:text="@string/auto_deposit_auto_deposit_frequency"
+            android:textAlignment="gravity"
+            android:textColor="@color/textColorBlackLight"
+            android:textSize="@dimen/text_size_extra_max_great" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_small"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+
+                android:paddingLeft="@dimen/padding_extra_large"
+                android:paddingRight="@dimen/padding_extra_large"
+                android:text="@string/auto_deposit"
+                android:textAlignment="gravity"
+                android:textColor="@color/textColorBlackLight"
+                android:textSize="@dimen/text_size_extra_large"
+                android:textStyle="bold" />
+
+            <Switch
+                android:id="@id/auto_deposit_switch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+
+                android:checked="true"
+                android:showText="false"
+                android:switchMinWidth="50dp"
+                android:text=""
+                android:textOff=""
+                android:textOn="" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:gravity="center"
+            android:paddingLeft="@dimen/padding_nornal"
+            android:paddingRight="@dimen/padding_nornal"
+            android:text="@string/auto_deposit_use_auto_deposit_"
+            android:textAlignment="gravity"
+            android:textColor="@color/textColorBlackLight"
+            android:textSize="@dimen/text_size_extra_large" />
+        <!-- </FrameLayout>-->
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="01"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@id/oncepermonth"
+            android:layout_width="@dimen/bank_account_link_bank_image_width_height"
+            android:layout_height="@dimen/bank_account_link_bank_image_width_height"
+            android:layout_gravity="center"
+            android:src="@drawable/oncepermonth"
+
+            app:border_color="@color/colorPrimaryDark"
+            app:border_width="0dp" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:gravity="center"
+            android:padding="@dimen/padding_nornal"
+            android:paddingLeft="@dimen/padding_nornal"
+            android:paddingRight="@dimen/padding_nornal"
+            android:text="@string/auto_deposit_once_per_month"
+            android:textAlignment="gravity"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/text_size_extra_large" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="01"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+
+            android:id="@id/everyweek"
+            android:layout_width="@dimen/bank_account_link_bank_image_width_height"
+            android:layout_height="@dimen/bank_account_link_bank_image_width_height"
+            android:layout_gravity="center"
+            android:src="@drawable/everyweek"
+            app:border_color="@color/colorPrimaryDark"
+            app:border_width="0dp" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:gravity="center"
+            android:padding="@dimen/padding_nornal"
+            android:paddingLeft="@dimen/padding_nornal"
+            android:paddingRight="@dimen/padding_nornal"
+            android:text="@string/auto_deposit_every_week"
+            android:textAlignment="gravity"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/text_size_extra_large" />
+
+
+    </LinearLayout>
+</LinearLayout>

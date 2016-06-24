@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:background="@color/colorPrimaryDark"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="@dimen/after_bank_account_setting_width_height"
+                android:layout_height="@dimen/after_bank_account_setting_width_height"
+                android:layout_gravity="left"
+                android:layout_marginLeft="@dimen/margin_normal"
+                android:padding="@dimen/margin_small"
+                android:src="@drawable/settings" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:text="Hi, John "
+                android:paddingLeft="@dimen/padding_extra_large"
+                android:paddingRight="@dimen/padding_extra_large"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/text_size_extra_extra_large" />
+
+            <ImageView
+                android:layout_width="@dimen/after_bank_account_setting_width_height"
+                android:layout_height="@dimen/after_bank_account_setting_width_height"
+                android:layout_gravity="right"
+                android:layout_marginRight="@dimen/margin_normal"
+                android:padding="@dimen/margin_small"
+                android:src="@drawable/add_user" />
+
+
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="01"
+            android:orientation="vertical">
+
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <com.bss.mintlocker.util.CustomViewpager
+                    android:id="@id/after_bank_account_viewflipper"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <include
+                        android:id="@id/after_bank_account_idone"
+                        layout="@layout/after_bank_account_layoutone"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"></include>
+
+                    <include
+                        android:id="@id/after_bank_account_idtwo"
+                        layout="@layout/after_bank_account_layouttwo"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"></include>
+
+
+                </com.bss.mintlocker.util.CustomViewpager>
+
+
+            </FrameLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.8"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_small"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="@dimen/after_bank_account_user_width_height"
+                    android:layout_height="@dimen/after_bank_account_user_width_height"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/user" />
+
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/margin_small"
+
+                    android:gravity="center"
+                    android:padding="@dimen/padding_small"
+                    android:text="@string/after_bank_account_my_account"
+
+                    android:textAlignment="gravity"
+                    android:textSize="@dimen/text_size_extra_extra_large" />
+
+
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="@dimen/margin_small"
+                android:background="@color/colorPrimaryDark" />
+
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_large"
+                android:layout_marginRight="@dimen/margin_large"
+                android:layout_marginTop="@dimen/margin_small"
+                android:background="@drawable/rounded_corner_blue_button"
+                android:text="@string/after_bank_account_deposit"
+                android:textColor="@android:color/white" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_large"
+                android:layout_marginRight="@dimen/margin_large"
+                android:layout_marginTop="@dimen/margin_small"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="01"
+                    android:padding="@dimen/padding_small"
+                    android:text="@string/after_bank_account_balance"
+                    android:textAllCaps="false"
+                    android:textColor="@color/textColorBlackLight"
+                    android:textSize="@dimen/text_size_extra_large" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="01"
+                    android:gravity="left"
+                    android:text="$"
+                    android:textAlignment="gravity"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/text_size_extra_large" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_large"
+                android:layout_marginRight="@dimen/margin_large"
+                android:layout_marginTop="@dimen/margin_small"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="01"
+                    android:padding="@dimen/padding_small"
+                    android:text="@string/after_bank_account_earnings"
+                    android:textAllCaps="false"
+                    android:textColor="@color/textColorBlackLight"
+                    android:textSize="@dimen/text_size_extra_large" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="01"
+                    android:gravity="left"
+                    android:text="$"
+
+                    android:textAlignment="gravity"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/text_size_extra_large" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_small"
+
+                android:layout_marginLeft="@dimen/margin_large"
+                android:layout_marginRight="@dimen/margin_large"
+                android:orientation="horizontal">
+
+
+
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textColorBlackLight"
+                android:layout_marginTop="@dimen/margin_small"
+                android:text="@string/after_bank_account_autodepost_off"
+                android:textAllCaps="true" />
+
+                <ImageView
+                    android:layout_width="@dimen/after_bank_account_user_width_height"
+                    android:layout_height="@dimen/after_bank_account_user_width_height"
+                    android:layout_marginLeft="@dimen/margin_small"
+                    android:src="@drawable/question"/>
+
+                </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

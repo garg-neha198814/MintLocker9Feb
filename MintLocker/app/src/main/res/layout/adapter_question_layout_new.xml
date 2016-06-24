@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:layout_marginTop="@dimen/margin_small"
+        android:layout_gravity="top"
+        android:textColor="@color/textColorBlackLight"
+        android:id="@+id/quesMain" />
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/padding_nornal"
+        android:layout_gravity="center|left"
+        android:paddingTop="@dimen/padding_nornal"
+        android:gravity="left|center_vertical"
+
+
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/ans1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:checked="false"
+            android:text="a"
+            android:textColor="@color/textColorBlackLight"
+            android:textSize="@dimen/text_size_large" />
+
+        <RadioButton
+            android:id="@+id/ans2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:checked="false"
+            android:text="b"
+
+            android:textColor="@color/textColorBlackLight"
+            android:textSize="@dimen/text_size_large" />
+
+        <RadioButton
+            android:id="@+id/ans3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:checked="false"
+            android:text="c"
+            android:textColor="@color/textColorBlackLight"
+            android:textSize="@dimen/text_size_large" />
+
+        <RadioButton
+            android:id="@+id/ans4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:checked="false"
+            android:text="d"
+            android:textColor="@color/textColorBlackLight"
+            android:textSize="@dimen/text_size_large" />
+
+
+        <RadioButton
+            android:id="@+id/ans5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:checked="false"
+            android:text="a"
+            android:textColor="@color/textColorBlackLight"
+            android:textSize="@dimen/text_size_large" />
+
+        <RadioButton
+            android:id="@+id/ans6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:checked="false"
+            android:text="b"
+
+            android:textColor="@color/textColorBlackLight"
+            android:textSize="@dimen/text_size_large" />
+
+        <RadioButton
+            android:id="@+id/ans7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:checked="false"
+            android:text="c"
+            android:textColor="@color/textColorBlackLight"
+            android:textSize="@dimen/text_size_large" />
+
+        <RadioButton
+            android:id="@+id/ans8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:checked="false"
+            android:text="d"
+            android:textColor="@color/textColorBlackLight"
+            android:textSize="@dimen/text_size_large" />
+
+        <RadioButton
+            android:id="@+id/ans9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:checked="false"
+            android:text="c"
+            android:textColor="@color/textColorBlackLight"
+            android:textSize="@dimen/text_size_large" />
+
+        <RadioButton
+            android:id="@+id/ans10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:checked="false"
+            android:text="d"
+            android:textColor="@color/textColorBlackLight"
+            android:textSize="@dimen/text_size_large" />
+
+
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="right|center"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="@dimen/margin_small"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:text="Previous"
+            android:visibility="gone"
+            android:id="@+id/previous"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:text="Next"
+            android:textColor="@android:color/white"
+            android:background="@drawable/rounded_corner_blue_button"
+            android:id="@+id/next"
+            android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>

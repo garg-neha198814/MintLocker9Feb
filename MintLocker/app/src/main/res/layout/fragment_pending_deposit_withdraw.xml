@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+ <!--   <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="@dimen/padding_medium"
+                android:paddingLeft="@dimen/padding_extra_large"
+                android:paddingRight="@dimen/padding_extra_large"
+                android:singleLine="true"
+                android:text="@string/pending_deposit_withdraw_title"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/text_size_extra_extra_large" />
+
+
+        </FrameLayout>
+
+
+    </LinearLayout>-->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="01"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/black"
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:padding="@dimen/padding_medium"
+                        android:paddingLeft="@dimen/padding_extra_large"
+                        android:paddingRight="@dimen/padding_extra_large"
+                        android:singleLine="true"
+                        android:text="@string/pending_deposit_withdraw_deposit"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/text_size_extra_extra_large" />
+
+
+                </FrameLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_large"
+                android:layout_marginRight="@dimen/margin_large"
+                android:layout_marginTop="@dimen/margin_small"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="01"
+                    android:padding="@dimen/padding_small"
+                    android:text="@string/pending_deposit_withdraw_amount"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColor="@color/textColorBlackLight"
+                    android:textSize="@dimen/text_size_extra_large" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="01"
+                    android:gravity="center"
+
+                    android:text="@string/pending_deposit_withdraw_date"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/textColorBlackLight"
+                    android:textSize="@dimen/text_size_extra_large" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_large"
+                android:layout_marginRight="@dimen/margin_large"
+                android:layout_marginTop="@dimen/margin_small"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="01"
+                    android:padding="@dimen/padding_small"
+                    android:text="$   8000"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/text_size_extra_large" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="01"
+                    android:gravity="center"
+                    android:text="10/25/2015"
+                    android:textAlignment="gravity"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/text_size_extra_large" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/black"
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:padding="@dimen/padding_medium"
+                        android:paddingLeft="@dimen/padding_extra_large"
+                        android:paddingRight="@dimen/padding_extra_large"
+                        android:singleLine="true"
+                        android:text="@string/pending_deposit_withdraw_pending"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/text_size_extra_extra_large" />
+
+
+                </FrameLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_large"
+                android:layout_marginRight="@dimen/margin_large"
+                android:layout_marginTop="@dimen/margin_small"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="01"
+                    android:padding="@dimen/padding_small"
+                    android:text="@string/pending_deposit_withdraw_amount"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColor="@color/textColorBlackLight"
+                    android:textSize="@dimen/text_size_extra_large" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="01"
+                    android:gravity="center"
+
+                    android:text="@string/pending_deposit_withdraw_date"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/textColorBlackLight"
+                    android:textSize="@dimen/text_size_extra_large" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_large"
+                android:layout_marginRight="@dimen/margin_large"
+                android:layout_marginTop="@dimen/margin_small"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="01"
+                    android:padding="@dimen/padding_small"
+                    android:text="$   2000"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/text_size_extra_large" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="01"
+                    android:gravity="center"
+                    android:text="10/09/2015"
+                    android:textAlignment="gravity"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/text_size_extra_large" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

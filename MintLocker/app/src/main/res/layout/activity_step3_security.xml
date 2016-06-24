@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".ui.activities.Step3_Security">
+
+
+    <include
+        android:id="@id/toolbar"
+        layout="@layout/toolbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16sp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:gravity="center_horizontal"
+                android:text="@string/securityText"
+                android:textColor="@color/textColorBlack"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Security Question 1"
+                android:textColor="@color/textColorBlackLight"
+                android:textSize="16sp" />
+
+            <RelativeLayout
+                android:id="@+id/SpinnerLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/spinner_background"
+                android:layout_marginTop="@dimen/margin_small"
+                android:padding="@dimen/padding_small">
+
+                <Spinner
+                    android:id="@id/QuestionA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/drop"
+                    android:layout_toStartOf="@+id/drop"
+                    android:background="@android:color/transparent"
+                    android:spinnerMode="dropdown"
+                    android:textAlignment="gravity" />
+
+                <ImageView
+                    android:id="@+id/drop"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/dropdown" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_small"
+                android:text="Answer"
+                android:textColor="@color/textColorBlackLight"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@id/answer1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_small"
+                android:layout_marginTop="@dimen/margin_small"
+                android:background="@drawable/edit_text_background"
+                android:inputType="text"
+                android:textColor="@color/textColorBlackLight" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Security Question 2"
+                android:textColor="@color/textColorBlackLight"
+                android:textSize="16sp" />
+
+            <RelativeLayout
+                android:id="@+id/SpinnerLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/spinner_background"
+                android:layout_marginTop="@dimen/margin_small"
+                android:padding="@dimen/padding_small">
+
+                <Spinner
+                    android:id="@id/QuestionB"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/drop1"
+                    android:layout_toStartOf="@+id/drop1"
+                    android:background="@android:color/transparent"
+                    android:spinnerMode="dropdown"
+                    android:textAlignment="gravity" />
+
+                <ImageView
+                    android:id="@+id/drop1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/dropdown" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_small"
+                android:text="Answer"
+                android:textColor="@color/textColorBlackLight"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@id/answer2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="@dimen/margin_small"
+                android:background="@drawable/edit_text_background"
+                android:inputType="text"
+                android:textColor="@color/textColorBlackLight" />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp">
+
+                <RelativeLayout
+                    android:id="@id/next"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/selector"
+                    android:padding="@dimen/padding_small">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/margin_small"
+                        android:text="@string/next"
+                        android:textColor="@color/textColorNext"
+                        android:textSize="18sp" />
+                </RelativeLayout>
+
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

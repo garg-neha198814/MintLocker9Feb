@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+
+
+ <!--   <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:text="9. Summary"
+                android:padding="@dimen/padding_nornal"
+                android:paddingLeft="@dimen/padding_extra_large"
+                android:paddingRight="@dimen/padding_extra_large"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/text_size_extra_extra_large" />
+
+
+
+
+        </FrameLayout>
+
+
+    </LinearLayout>-->
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_large"
+            android:layout_marginRight="@dimen/margin_large"
+            android:layout_marginTop="@dimen/margin_small"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="01"
+                android:padding="@dimen/padding_small"
+                android:text="@string/summary_total_balanc"
+                android:textAllCaps="false"
+                android:textColor="@color/textColorBlackLight"
+                android:textSize="@dimen/text_size_extra_large" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="01"
+                android:gravity="left"
+                android:text="$"
+                android:textStyle="bold"
+                android:textAlignment="gravity"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/text_size_extra_max" />
+
+
+        </LinearLayout>
+
+<View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:layout_marginTop="@dimen/margin_normal"
+    android:background="@color/colorPrimaryDark"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_normal"
+            android:padding="@dimen/padding_nornal"
+
+            android:text="@string/summary_investment_status"
+            android:textAllCaps="false"
+            android:textColor="@color/textColorBlackLight"
+            android:textSize="@dimen/text_size_extra_large" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_large"
+            android:layout_marginRight="@dimen/margin_large"
+            android:layout_marginTop="@dimen/margin_small"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="01"
+                android:padding="@dimen/padding_small"
+                android:text="@string/summary_deposit"
+                android:textAllCaps="false"
+                android:textColor="@color/textColorBlackLight"
+                android:textSize="@dimen/text_size_extra_large" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="01"
+                android:gravity="left"
+                android:text="$"
+                android:textAlignment="gravity"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/text_size_extra_large" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_large"
+            android:layout_marginRight="@dimen/margin_large"
+            android:layout_marginTop="@dimen/margin_small"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="01"
+                android:padding="@dimen/padding_small"
+                android:text="@string/summary_withdrawals"
+                android:textAllCaps="false"
+                android:textColor="@color/textColorBlackLight"
+                android:textSize="@dimen/text_size_extra_large" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="01"
+                android:gravity="left"
+                android:text="$"
+                android:textAlignment="gravity"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/text_size_extra_large" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:padding="@dimen/padding_nornal"
+
+            android:text="@string/summary_your_earnings"
+            android:textAllCaps="false"
+            android:textColor="@color/textColorBlackLight"
+            android:textSize="@dimen/text_size_extra_large"
+             />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_large"
+            android:layout_marginRight="@dimen/margin_large"
+            android:layout_marginTop="@dimen/margin_small"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="01"
+                android:padding="@dimen/padding_small"
+                android:text="@string/summary_markets_changes"
+                android:textAllCaps="false"
+                android:textColor="@color/textColorBlackLight"
+                android:textSize="@dimen/text_size_extra_large" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="01"
+                android:gravity="left"
+                android:text="$"
+                android:textAlignment="gravity"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/text_size_extra_large" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_large"
+            android:layout_marginRight="@dimen/margin_large"
+            android:layout_marginTop="@dimen/margin_small"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="01"
+                android:padding="@dimen/padding_small"
+                android:text="@string/summary_dividends"
+                android:textAllCaps="false"
+                android:textColor="@color/textColorBlackLight"
+                android:textSize="@dimen/text_size_extra_large" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="01"
+                android:gravity="left"
+                android:text="$"
+                android:textAlignment="gravity"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/text_size_extra_large" />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/margin_normal"
+            android:background="@color/colorPrimaryDark"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_large"
+            android:layout_marginRight="@dimen/margin_large"
+            android:layout_marginTop="@dimen/margin_normal"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:padding="@dimen/padding_small"
+                android:text="@string/summary_earnings"
+                android:textAllCaps="false"
+                android:textColor="@color/textColorBlackLight"
+                android:textSize="@dimen/text_size_extra_large" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="01"
+                android:gravity="right"
+                android:text="%"
+                android:textAlignment="gravity"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/text_size_extra_large" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_large"
+            android:layout_marginRight="@dimen/margin_large"
+            android:layout_marginTop="@dimen/margin_small"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:padding="@dimen/padding_small"
+                android:text="@string/summary_time_weighted_return"
+                android:textAllCaps="false"
+                android:textColor="@color/textColorBlackLight"
+                android:textSize="@dimen/text_size_extra_large" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="01"
+                android:gravity="right"
+                android:text="%"
+                android:textAlignment="gravity"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/text_size_extra_large" />
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>

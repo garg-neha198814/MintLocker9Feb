@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#34BCA9</color>
+    <color name="colorPrimaryDark">#34BCA9</color>
+
+ <!--   <color name="colorPrimary">#8BDBD2</color>
+    <color name="colorPrimaryDark">#3CC3B2</color>-->
+    <color name="colorAccent">#000000</color>
+
+    <color name="textColorWhite">#ffffff</color>
+    <color name="textColorBlack">#000000</color>
+    <color name="textColorBlackLight">#85000000</color>
+
+    <color name="buttonLoginColorNormal">#ffffff</color>
+    <color name="buttonLoginColorPressed">#DCDCDC</color>
+    <color name="buttonLoginColorText">#3CB371</color>
+
+    <color name="buttonRegisterColorNormal">#316E67</color>
+    <color name="buttonRegisterColorPressed">#68c9be</color>
+    <color name="buttonRegisterColorText">#ffffff</color>
+
+    <color name="colorBackground">#ffffff</color>
+
+    <color name="toolbarBackground">#7FD6CC</color>
+
+    <color name="item_pressed">#e4e4e4</color>
+
+    <color name="textColorNext">#18BAA6</color>
+    <color name="listitem">#F8F9FA</color>
+
+</resources>

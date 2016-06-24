@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimaryDark"
+    android:elevation="4dp"
+    android:minHeight="?attr/actionBarSize"
+
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+
+
+    >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@id/toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="-20dp"
+            android:gravity="center"
+            android:text=""
+            android:textAlignment="gravity"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_large"
+
+            />
+
+        <ImageView
+            android:id="@id/toolbar_add_user"
+            android:layout_width="@dimen/after_bank_account_setting_width_height"
+            android:layout_height="@dimen/after_bank_account_setting_width_height"
+            android:layout_gravity="right"
+            android:layout_marginRight="@dimen/margin_normal"
+            android:padding="@dimen/margin_small"
+            android:src="@drawable/add_user" />
+
+    </FrameLayout>
+
+</android.support.v7.widget.Toolbar>

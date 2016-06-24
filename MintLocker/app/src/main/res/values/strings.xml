@@ -1,0 +1,272 @@
+<resources>
+    <string name="app_name">Mint Locker</string>
+
+    <string name="toastMessage">Please click BACK again to exit</string>
+
+    <!-- Home Screen -->
+    <string name="homeText">Welcome to <b>The Mint Locker</b></string>
+    <string name="loginButtonText">Login</string>
+    <string name="registerButtonText">Register</string>
+    <string name="homeDesc">fhadgfysdgfsdfsdf sdfuyuidsqfgyiuweryuigft uryfgitueqrywtqeiruwty rotwouertoeirutoerwt erotwuertywyhi ioioyuioyiuoyiou iuoiiouoiuiou</string>
+
+    <!-- Registartion Step 1 tell us about yourself -->
+    <string name="nameHint">Name</string>
+    <string name="emailHint">Email</string>
+    <string name="passHint">Password</string>
+    <string name="birthDateHint">Date of birth</string>
+    <string name="addressHint">Address</string>
+    <string name="cityHint">City</string>
+    <string name="stateHint">State</string>
+    <string name="zipHint">Zip</string>
+    <string name="phoneHint">Phone Number</string>
+    <string name="next">Next ></string>
+
+    <!-- Registartion Step 2 identity verification -->
+    <string name="identityVerificationText">The Mint Locker Will use your SSN to verify your identity and protect you against fraud.</string>
+
+    <!-- Registartion Step 3 Regulation -->
+    <string name="regulationText">We are required by the law to ask about the following rare situations. Most users answer \'No\'.</string>
+    <string name="answerYes">Yes</string>
+    <string name="answerNo">No</string>
+    <string name="regulationQuestion1">You are employed by or associate with a broker/dealer</string>
+    <string name="regulationQuestion2">You are 10% shareholder, director or policy maker of a publicily traded company</string>
+    <string name="regulationQuestion3">You have been notified by the IRS that you are currently subject to backup withholding</string>
+    <string name="regulationQuestion4">How did you hear about us?</string>
+    <string-array name="answers4">
+        <item>Select</item>
+        <item>Friend</item>
+        <item>News</item>
+        <item>Other</item>
+    </string-array>
+    <string name="termsConditionsTitle">By checking this box, you acknowledge that you have read and agree to the terms below.</string>
+    <string name="termsConditionsLinkText"><![CDATA[Terms & Conditions]]></string>
+
+    <!-- Registartion Step 4 Security -->
+    <string name="securityText">We ask security questions and answers to protect your account</string>
+
+    <!-- Registartion Step 5 employement and financial background -->
+    <string name="employementFinancialBackgroundText">We *are required by the SEC to ask for your employement status and financial background. This will give us a better idea on how to allocate your investment.</string>
+
+    <!-- Registartion Step 6 porfolio -->
+    <string name="lowRisk">Low Risk</string>
+    <string name="highRisk">High Risk</string>
+    <string name="mediumRisk">Medium Risk</string>
+    <string name="questionnnaire">Take Investment Questionnaire for better recommendations</string>
+    <string name="selectRisk">Choose</string>
+    <string name="textLowRisk">Each portfolio is made up of six etf\'s depending upon your specific risk profile signed up to find which right portfolio is for you.</string>
+    <string name="textMediumRisk">Each portfolio is made up of six etf\'s depending upon your specific risk profile signed up to find which right portfolio is for you.</string>
+    <string name="textHighRisk">Each portfolio is made up of six etf\'s depending upon your specific risk profile signed up to find which right portfolio is for you.</string>
+
+    <!-- Registartion Step 6 Questionnaire -->
+    <string name="skipQues">Skip</string>
+
+    <!-- Invite screen -->
+    <string name="inviteMessage">For every friend you invite, you get 30 days free of The Mint Locker monthly charge</string>
+    <string name="inviteLinkMessage">Copy and share your personal referral link</string>
+    <string name="inviteLink">Lorem ipsum dollar sit amet</string>
+    <string name="inviteButtonText">Send Invitation</string>
+
+    <!-- Settings screen -->
+    <string name="updateTitle">Updates</string>
+    <string name="pinTitle">Touch ID and Pin</string>
+    <string name="helpTitle">Ask for help</string>
+    <string name="rateTitle">Rate The Mint Locker</string>
+    <string name="financeTitle">Learn about finance</string>
+    <string name="feedbackTitle">Give us feedback. We listen.</string>
+    <string name="logout">Log Out</string>
+
+    <!-- Alert Dialog -->
+    <string name="cancel">Cancel</string>
+    <string name="ok">Yes</string>
+    <string name="title">Warning!</string>
+    <string name="message">If you go back all the progress made by you will be lost.</string>
+    <string name="titleQues">Questionnaire</string>
+    <string name="messageQues">To complete the registration process, you have to take the questionnaire. Do you want to continue or skip? </string>
+    <string name="cancelQues">Skip</string>
+    <string name="okQues">Continue</string>
+
+<!--new code merge 1-->
+
+    <!--Deposite process-->
+
+    <string name="desposit_process_close">X</string>
+    <string name="desposit_process_confirm">Confirm</string>
+    <string name="desposit_process_from">FROM</string>
+    <string name="desposit_process_to">TO</string>
+
+    <!--Bank account-->
+
+    <string name="bank_account_choose_bank">Choose bank</string>
+    <string name="bank_account_link_bank">Link bank</string>
+    <string name="bank_account_choose_account">Choose account</string>
+    <string name="bank_account_funding">Funding</string>
+    <string name="bank_account_choose_select_bank">Select a bank to add</string>
+    <string name="bank_account_add_a_checking">Add a checking account to fund your investments.</string>
+
+
+    <!--Bank account link bank section-->
+    <string name="bank_account_link_your_account">Link your bank</string>
+    <string name="bank_account_link_instantly">Link instantly by entering your bank username and bank password below.</string>
+    <string name="bank_account_username">Username</string>
+    <string name="bank_account_bank_password">Bank Password</string>
+    <string name="bank_account_information_used">v How is the information used?</string>
+    <string name="bank_account_btn_connect_bank">Connect bank</string>
+    <string name="bank_account_not_use_online_banking">Donot use online banking?</string>
+    <string name="bank_account_enter_your_routing">Enter your routing and account numbers below.</string>
+    <string name="bank_account_routing_number">Routing number</string>
+    <string name="bank_account_account_number">Account number</string>
+    <string name="bank_account_use_online_banking">Have a bank username and password?</string>
+
+    <!--after bank account-->
+
+    <string name="after_bank_account_total_balance">Total Balance</string>
+    <string name="after_bank_account_total_earning">Total Earnings</string>
+    <string name="after_bank_account_my_account">My Account</string>
+    <string name="after_bank_account_deposit">Deposit</string>
+    <string name="after_bank_account_balance">Balance</string>
+    <string name="after_bank_account_earnings">Earnings</string>
+    <string name="after_bank_account_autodepost_off">Auto Deposit off</string>
+    <string name="after_bank_account_autodepost_on">Auto Deposit on</string>
+
+    <string name="after_bank_account_period_since">Period Since</string>
+    <string name="after_bank_account_amount_invested">Amount Invested</string>
+    <string name="after_bank_account_amount_earned">Amount earned</string>
+    <string name="after_bank_account_earnings_in_percent">earnings%</string>
+    <string name="after_bank_account_time_weighted">Time-Weighted Return</string>
+
+    <!--fragment_transfer screen-->
+    <string name="transfer_deposit">Deposit</string>
+    <string name="transfer_withdraw">Withdraw</string>
+    <string name="transfer_pending_transfer">Pending Transfers</string>
+    <string name="transfer_autodeposit">AutoDeposit</string>
+
+
+    <!--fragment_summary screen-->
+
+    <string name="summary_total_balanc">Total Balance</string>
+    <string name="summary_investment_status">Investment Status</string>
+    <string name="summary_deposit">Deposit</string>
+    <string name="summary_withdrawals">Withdrawals</string>
+
+    <string name="summary_your_earnings">Your Earnings</string>
+    <string name="summary_markets_changes">Market changes</string>
+    <string name="summary_dividends">Dividends</string>
+    <string name="summary_earnings">Earnings</string>
+    <string name="summary_time_weighted_return">Time Weighted Return</string>
+
+
+    <!-- Drawer activity Home-->
+    <string name="openDrawer">openDrawer</string>
+    <string name="closeDrawer">closeDrawer</string>
+
+
+    <!-- auto deposit-->
+    <string name="auto_deposit">Auto Deposit</string>
+    <string name="auto_deposit_auto_deposit_frequency">AutoDeposit Frequency</string>
+    <string name="auto_deposit_use_auto_deposit_">Use automatic deposit to set up free recurring transfer from your linked account</string>
+    <string name="auto_deposit_once_per_month">Once per month</string>
+    <string name="auto_deposit_every_week">every week</string>
+    <!-- pending deposit withdraw-->
+    <string name="pending_deposit_withdraw_title">Deposit/Withdraw</string>
+    <string name="pending_deposit_withdraw_deposit">Pending Deposits</string>
+    <string name="pending_deposit_withdraw_pending">Pending Withdrawals</string>
+    <string name="pending_deposit_withdraw_amount">Amount</string>
+    <string name="pending_deposit_withdraw_date">Date</string>
+
+
+
+    <!--Once per month-->
+    <string name="once_per_month_title">Deposit</string>
+    <string name="once_per_month_select_day_of_month">Select Day of Month</string>
+    <string name="once_per_month_deposit_once">Deposit once per month on the list</string>
+    <string name="once_per_month_select_day">Select Day</string>
+
+    <!--every week-->
+    <string name="every_week_title">Deposit</string>
+    <string name="every_week_select_day">Select Day of Week</string>
+    <string name="every_week_deposit_other_week">Deposit every other week on</string>
+    <string name="every_week_select_weekend">Select Weekday</string>
+
+    <!--end code merge 1-->
+
+    <string-array name="question_arrayA">
+        <item>what was the name of your elementry school?</item>
+        <item>what was the name of your favorite childhood friend?</item>
+        <item>what was the name of your childhood pet?</item>
+
+
+    </string-array>
+
+    <string-array name="question_arrayB">
+        <item>what street did you live on in third grade?</item>
+        <item>what is your oldest sibling\'s birth month?</item>
+        <item>In what city dis your mother and father meet?</item>
+
+
+    </string-array>
+
+
+    <string-array name="employment_status">
+        <item>Employed(full-time)</item>
+        <item>Employed(post-time)</item>
+        <item>Self-employee</item>
+        <item>Student</item>
+        <item>Retired</item>
+        <item>Not employed</item>
+
+    </string-array>
+
+
+    <string-array name="hearAboutUs">
+        <item>Friends</item>
+        <item>Facebook/Twitter</item>
+        <item>Print/Tv</item>
+        <item>Mobile Advertising</item>
+        <item>Radio</item>
+        <item>Poster/Outdoor Advertising</item>
+        <item>Podcast</item>
+        <item>Other</item>
+
+    </string-array>
+
+    <!-- Terms and condition activity -->
+
+
+    <string name="tandc_title">Terms and Conditions</string>
+    <string name="tandc_button">Close</string>
+
+    <!--Suggest Portfolio screen-->
+    <string name="suggest_Accept">Accept</string>
+    <string name="suggest_reject">Reject</string>
+
+    <string name="suggest_small_co_stocks">Cash</string>
+    <string name="suggest_large_co_stocks">US Stock</string>
+
+    <string name="suggest_emerging_market_stocks">Non U.S Stock</string>
+    <string name="suggest_government_bond">Bonds</string>
+
+    <string name="suggest_real_estate_stocks">Others</string>
+   <!-- <string name="suggest_corporate_bond">CORPORATE BONDS</string>-->
+
+    <!--Forgot password screen -->
+
+    <string name="fp_title_text">We will send you a password recovery email</string>
+    <string name="fp_submit">Submit</string>
+    <string name="fp_email_hint">Email ID</string>
+
+
+    <!--Login activity-->
+
+
+    <string name="forgot_ur_password">Forgot your Password?</string>
+    <string name="email_address">Email ID</string>
+    <string name="password">Password</string>
+
+    <!--Auto Deposit-->
+
+
+    <string name="amount">Amount</string>
+    <string name="date">Date</string>
+    <string name="save">save</string>
+
+</resources>

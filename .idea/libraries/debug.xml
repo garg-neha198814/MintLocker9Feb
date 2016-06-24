@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="debug">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/MintLocker/app/build/intermediates/pre-dexed/debug/classes-568890d17ee922580a0287bbd4469e264645b1c7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/MintLocker/app/build/intermediates/pre-dexed/debug/classes-28382d06f17657eb9cfbb63af3c49c2c0b571bcd.jar!/" />
+      <root url="jar://$PROJECT_DIR$/MintLocker/app/build/intermediates/pre-dexed/debug/classes-f0ed37dff8e94bd401a1cb28a9c31bc69dad986f.jar!/" />
+      <root url="jar://$PROJECT_DIR$/MintLocker/app/build/intermediates/pre-dexed/debug/classes-836a590c9b8d00d3e7ad627838f76eecbdeab9a9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/MintLocker/app/build/intermediates/pre-dexed/debug/library-1.0.19-87c239e70294a00e0380c13aeb73b09582920674.jar!/" />
+      <root url="jar://$PROJECT_DIR$/MintLocker/app/build/intermediates/pre-dexed/debug/classes-e20ac70b53ed528d3b6e7924916cf5fb40d19920.jar!/" />
+      <root url="jar://$PROJECT_DIR$/MintLocker/app/build/intermediates/pre-dexed/debug/support-annotations-23.1.1-2147e6420daac8c8887e5747e72b5dc2409fce66.jar!/" />
+      <root url="jar://$PROJECT_DIR$/MintLocker/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.1-e22f8ad5d321569435afb9f4a153b2a85efd7623.jar!/" />
+      <root url="jar://$PROJECT_DIR$/MintLocker/app/build/intermediates/pre-dexed/debug/MPAndroidChart-v2.1.6-273a8c04e4d504ec0693d43e2a75fa86249d00a9.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,55 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+
+
+
+    <!--universal padding-->
+    <dimen name="padding_small">05dp</dimen>
+    <dimen name="padding_nornal">10dp</dimen>
+    <dimen name="padding_medium">15dp</dimen>
+    <dimen name="padding_large">20dp</dimen>
+    <dimen name="padding_extra_large">25dp</dimen>
+
+
+    <!--universal margin-->
+    <dimen name="margin_small">05dp</dimen>
+    <dimen name="margin_normal">10dp</dimen>
+    <dimen name="margin_medium">15dp</dimen>
+    <dimen name="margin_large">20dp</dimen>
+    <dimen name="margin_extra_large">25dp</dimen>
+
+
+    <!--universal text size for phone-->
+
+    <dimen name="text_size_small">10sp</dimen>
+    <dimen name="text_size_normal">12sp</dimen>
+    <dimen name="text_size_medium">14sp</dimen>
+    <dimen name="text_size_large">16sp</dimen>
+    <dimen name="text_size_extra_large">18sp</dimen>
+    <dimen name="text_size_extra_extra_large">20sp</dimen>
+    <dimen name="text_size_extra_max">30sp</dimen>
+    <dimen name="text_size_extra_max_great">35sp</dimen>
+
+
+
+    <dimen name="after_bank_account_user_width_height">18dp</dimen>
+    <dimen name="after_bank_account_setting_width_height">30dp</dimen>
+    <dimen name="dialer_width_height">60dp</dimen>
+    <dimen name="bank_account_image_width_height">80dp</dimen>
+    <dimen name="bank_account_link_bank_image_width_height">120dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+
+    <dimen name="once_per_month_box">40dp</dimen>
+
+
+
+    <dimen name="transfer_width_height">40dp</dimen>
+    <dimen name="recycle_header_width">200dp</dimen>
+
+
+
+</resources>

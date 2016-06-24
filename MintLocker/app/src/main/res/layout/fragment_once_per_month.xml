@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+android:background="@android:color/white"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+
+<!--    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="@dimen/padding_medium"
+                    android:paddingLeft="@dimen/padding_extra_large"
+                    android:paddingRight="@dimen/padding_extra_large"
+                    android:singleLine="true"
+                    android:text="@string/once_per_month_title"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/text_size_extra_extra_large" />
+
+
+            </FrameLayout>
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>-->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_weight="01"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|center_horizontal"
+                android:layout_marginTop="@dimen/margin_medium"
+                android:paddingLeft="@dimen/padding_extra_large"
+                android:paddingRight="@dimen/padding_extra_large"
+                android:gravity="center"
+                android:text="@string/once_per_month_select_day_of_month"
+                android:textAlignment="gravity"
+                android:textColor="@color/textColorBlackLight"
+                android:textSize="@dimen/text_size_extra_extra_large" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|bottom"
+                android:gravity="center"
+                android:paddingLeft="@dimen/padding_nornal"
+                android:paddingRight="@dimen/padding_nornal"
+                android:text="@string/once_per_month_deposit_once"
+                android:textAlignment="gravity"
+                android:textColor="@color/textColorBlackLight"
+                android:textSize="@dimen/text_size_extra_large" />
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="0.5"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <GridView
+                android:numColumns="7"
+                android:gravity="center"
+
+                android:padding="@dimen/padding_small"
+                android:verticalSpacing="10dp"
+                android:stretchMode="columnWidth"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@id/once_per_month_gridview"
+                />
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="01"
+            android:layout_width="match_parent"
+            android:gravity="bottom"
+            android:layout_height="match_parent">
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+android:visibility="gone"
+                android:text="@string/once_per_month_select_day"
+                android:padding="@dimen/padding_nornal"
+                android:textColor="@android:color/white"
+                android:background="@drawable/rounded_corner_blue_button"
+                android:id="@+id/button2" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

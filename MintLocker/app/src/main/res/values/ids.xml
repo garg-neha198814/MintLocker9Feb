@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- toolbar -->
+    <item name="toolbar_id" type="id" />
+
+
+    <!--bank account-->
+    <item name="bank_account_progress" type="id" />
+    <item name="bank_account_switcher" type="id" />
+
+
+    <item name="bank_account_choose_bank" type="id" />
+    <item name="bank_account_link_bank" type="id" />
+    <item name="bank_account_choose_account" type="id" />
+    <item name="bank_account_funding" type="id" />
+    <item name="bank_account_itemfirst" type="id" />
+    <item name="bank_account_link_account_first" type="id" />
+    <item name="bank_account_link_account_second" type="id" />
+    <item name="bank_account_choose_account_next" type="id" />
+    <item name="bank_account_funding_next" type="id" />
+    <item name="bank_account_online" type="id" />
+    <item name="bank_account_not_online" type="id" />
+    <item name="bank_account_choose_bank_text" type="id" />
+    <item name="bank_account_link_bank_text" type="id" />
+    <item name="bank_account_choose_account_text" type="id" />
+    <item name="bank_account_funding_text" type="id" />
+    <item name="bank_account_connect_bank_online" type="id" />
+    <item name="bank_account_connect_bank_offline" type="id" />
+
+
+    <!--after bank account-->
+    <item name="after_bank_account_idone" type="id" />
+    <item name="after_bank_account_idtwo" type="id" />
+    <item name="after_bank_account_viewflipper" type="id" />
+
+    <!--once per month list -->
+
+    <item name="once_per_month_gridview" type="id" />
+
+
+    <!--once per month list item -->
+
+    <item name="tv_once_per_month_number_of_day" type="id" />
+
+    <!--every week -->
+    <item name="every_week_previous" type="id" />
+    <item name="every_week_next" type="id" />
+    <item name="every_week_weekdays" type="id" />
+    <!--landing screen-->
+    <item name="tool_bar" type="id" />
+    <item name="DrawerLayout" type="id" />
+    <item name="header_main_activity_mainframe" type="id" />
+
+
+    <!--Toolbar ids-->
+    <item name="toolbar" type="id" />
+    <item name="toolbar_top" type="id" />
+    <item name="toolbar_title" type="id" />
+
+    <item name="toolbar_add_user" type="id" />
+
+    <!--Register screen common-->
+
+
+    <item name="next" type="id" />
+
+
+    <!--Registration screen One-->
+
+
+    <item name="name" type="id" />
+    <item name="email" type="id" />
+    <item name="password" type="id" />
+    <item name="birthDate" type="id" />
+
+    <item name="birthDateSeletor" type="id" />
+    <item name="gender" type="id" />
+    <item name="male" type="id" />
+    <item name="female" type="id" />
+
+
+    <item name="address" type="id" />
+    <item name="city" type="id" />
+    <item name="state" type="id" />
+    <item name="zip" type="id" />
+
+    <item name="phone" type="id" />
+
+
+    <!--Register Screen 2-->
+
+
+    <item name="securitySSN" type="id" />
+
+    <!--Register Screen 3-->
+
+    <item name="QuestionA" type="id" />
+    <item name="answer1" type="id" />
+    <item name="QuestionB" type="id" />
+    <item name="answer2" type="id" />
+    <!--Register Screen 4-->
+
+
+    <item name="employment_status" type="id" />
+    <item name="incomeValue" type="id" />
+    <item name="netWorthValue" type="id" />
+
+    <!--Register Screen 5-->
+
+    <item name="question1" type="id" />
+    <item name="question2" type="id" />
+    <item name="question3" type="id" />
+
+    <item name="knowaboutus" type="id" />
+    <item name="accept" type="id" />
+    <item name="termsandcondition" type="id" />
+
+
+    <item name="ques1AnsYes" type="id" />
+    <item name="ques1AnsNo" type="id" />
+    <item name="ques2AnsYes" type="id" />
+
+    <item name="ques2AnsNo" type="id" />
+    <item name="ques3AnsYes" type="id" />
+    <item name="ques3AnsNo" type="id" />
+
+    <item name="questionMark1" type="id" />
+    <item name="questionMark2" type="id" />
+    <item name="questionMark3" type="id" />
+
+
+
+    <!--terms& condition-->
+
+    <item name="tandc_title" type="id" />
+    <item name="tandc_webview" type="id" />
+    <item name="tandc_close" type="id" />
+
+
+    <!--question screen-->
+
+    <item name="question_viewpager" type="id" />
+
+
+    <!--Suggext fragment_portfolio-->
+
+    <item name="suggest_seekbar_one" type="id" />
+    <item name="suggest_seekbar_two" type="id" />
+    <item name="suggest_seekbar_three" type="id" />
+    <item name="suggest_seekbar_four" type="id" />
+    <item name="suggest_seekbar_five" type="id" />
+    <item name="suggest_seekbar_six" type="id" />
+
+    <item name="suggest_tv_one" type="id" />
+    <item name="suggest_tv_two" type="id" />
+    <item name="suggest_tv_three" type="id" />
+    <item name="suggest_tv_four" type="id" />
+    <item name="suggest_tv_five" type="id" />
+    <item name="suggest_tv_six" type="id" />
+    <item name="suggest_riskType" type="id" />
+    <item name="ll_suggest_btn_accept_reject" type="id" />
+    <item name="suggest_btn_accept" type="id" />
+    <item name="suggest_btn_reject" type="id" />
+
+    <!--forgot password screen-->
+
+    <item name="fp_et_email" type="id" />
+    <item name="fp_btn_submit" type="id" />
+
+    <!--login screen-->
+    <item name="login_forgotpassword" type="id" />
+    <item name="login_emailid" type="id" />
+    <item name="login_password" type="id" />
+    <item name="login_submit" type="id" />
+    <!--Porfolio New-->
+    <item name="portfolio_idone" type="id" />
+    <item name="portfolio_idtwo" type="id" />
+    <item name="portfolio_idthree" type="id" />
+    <item name="portfolio_viewPager" type="id" />
+    <item name="RadioGroupViewFliper" type="id" />
+    <item name="rb_One" type="id" />
+    <item name="rb_two" type="id" />
+    <item name="rb_three" type="id" />
+
+
+    <!--Transfer screen-->
+    <item name="transfer_deposit" type="id" />
+    <item name="transfer_withdraw" type="id" />
+    <item name="transfer_pendingtransfer" type="id" />
+    <item name="transfer_autodepost" type="id" />
+
+
+    <!-- autodeposite-->
+
+    <item name="auto_deposit_switch" type="id" />
+    <item name="oncepermonth" type="id" />
+     <item name="everyweek" type="id" />
+
+    <!-- autodeposite new custom screen-->
+
+    <item name="auto_deposit_calender" type="id" />
+
+    <!--activity screen-->
+    <item name="activity_header_main" type="id" />
+    <item name="activity_date" type="id" />
+
+    <item name="activity_header" type="id" />
+    <item name="activity_date_item" type="id" />
+
+    <item name="activity_amount_large" type="id" />
+    <item name="activity_amount_small" type="id" />
+    <item name="activity_list" type="id" />
+    <item name="activity_download" type="id" />
+
+
+</resources>
